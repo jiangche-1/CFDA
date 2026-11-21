@@ -1,0 +1,12 @@
+python train_15.py \
+    --model ./deberta \
+    --data_dir ./dataset \
+    --dataset twitter2015 \
+    --catr_ckpt ./catr/checkpoint.pth \
+    --region_box ./region_box/15_twitter/_box \
+    --region_att ./region_box/15_twitter/_att \
+    --device cuda:0 \
+    --batch_size 6 \
+    --num_workers 0 \
+    --seed 75 \
+    --epochs 8

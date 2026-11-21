@@ -1,0 +1,18 @@
+# large files and runtime artifacts
+article.pdf
+requirements-4060.txt
+*.pth
+deberta/
+region_box/
+dataset/
+data/
+logs/
+result/
+
+# python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os junk
+.DS_Store
