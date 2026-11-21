@@ -1,4 +1,4 @@
-# Multimodal Aspect-Based Sentiment Classification via Contrastive Filtration and Cross-Modal Distributional Alignment
+# CFDA
 
 Official PyTorch implementation of CFDA for the multimodal aspect-based sentiment classification (MABSC) task.
 
